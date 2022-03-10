@@ -11,6 +11,10 @@ body {
     font-weight: 300;
 }
 
+a {
+    text-decoration: none;
+}
+
 .cardContent {
     background-color: hsl(216, 50%, 16%);
     padding: 20px;
