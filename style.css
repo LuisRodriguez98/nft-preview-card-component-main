@@ -8,6 +8,7 @@ body {
     align-items: center;
     display: flex;
     font-size: 18px;
+    font-weight: 300;
 }
 
 .cardContent {
@@ -53,12 +54,18 @@ body {
     display: block;
 }
 
-h1 {
+.h1 {
     color: white;
     font-family: 'Outfit';
     font-weight: 600;
     font-size: 18px;
     margin: 18px 0px;
+    text-decoration: none;
+}
+
+.h1:hover {
+    color: hsl(178, 100%, 50%);
+    
 }
 
 p {
@@ -79,6 +86,7 @@ p {
     font-family: 'Outfit';
     align-items: center;
     display: flex;
+    font-weight: 400;
 }
 
 .ethIcon {
@@ -88,9 +96,10 @@ p {
 .timeLeft {
     color: hsl(215, 51%, 70%);
     font-family: 'Outfit';
-    font-weight: 300;
+    font-weight: 400;
     display: flex;
     align-items: center;
+
 }
 
 .clock {
@@ -120,5 +129,11 @@ p {
 
 .authorLink {
     margin-left: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.authorLink:hover {
     color: hsl(178, 100%, 50%);
 }
+
