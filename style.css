@@ -62,6 +62,9 @@ body {
     margin: 18px 0px;
     text-decoration: none;
 }
+.h1:visited {
+    color: white;
+}
 
 .h1:hover {
     color: hsl(178, 100%, 50%);
@@ -132,6 +135,11 @@ p {
     color: white;
     text-decoration: none;
 }
+
+.authorLink:visited {
+    color: white;
+}
+
 
 .authorLink:hover {
     color: hsl(178, 100%, 50%);
