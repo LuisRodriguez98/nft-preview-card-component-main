@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+}
+
+.cardContent {
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 5%;
+}
+
+
+.detailsContent {
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+}
+
+.nft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+.nft-hover {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 255, 255, 0.5);
+    border-radius: 5%;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.nft-hover:hover {
+    display: flex;
+}
+.nft-image:hover ~ .nft-hover {
+    display: flex;
+}
+
+.nft-image {
+    border-radius: 5%;
+    width: 300px;
+    display: block;
+}
+
+h1 {
+    color: white;
+    font-family: 'Outfit';
+    font-weight: 600;
+    font-size: 18px;
+    margin: 18px 0px;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit';
+    font-weight: 300;
+    margin: 0px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin: 18px 0px;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit';
+    align-items: center;
+    display: flex;
+}
+
+.ethIcon {
+    margin-right: 10px;
+}
+
+.timeLeft {
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit';
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+}
+
+.clock {
+    margin-right: 10px;
+}
+
+.divisor {
+    border: 0.5px solid hsl(215, 32%, 27%);
+    margin: 0px;
+}
+
+.author {
+    font-family: 'Outfit';
+    font-weight: 300;
+    margin: 18px 0px 0px;
+    align-items: center;
+    display: flex;
+}
+
+.authorIcon {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.authorLink {
+    margin-left: 5px;
+    color: hsl(178, 100%, 50%);
+}
